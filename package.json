@@ -1,0 +1,19 @@
+{
+  "name": "seer-oracle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "truffle": "^5.5.7"
+  },
+  "scripts": {
+    "test": "npx truffle test",
+    "develop": "nodemon -e js,sol --exec 'npx truffle test'",
+    "testnet": "npx truffle migrate --network testnet"
+  },
+  "author": "anhvt",
+  "license": "MIT",
+  "description": "Smart Contract Seer Oracle"
+}
